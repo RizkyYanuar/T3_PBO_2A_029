@@ -4,7 +4,7 @@ public class MenuItem {
     private String kode;
     private String nama;
     private int harga;
-    private Boolean tersedia;
+    public Boolean tersedia;
 
     public MenuItem(String kode, String nama, int harga) {
         this.kode = kode;

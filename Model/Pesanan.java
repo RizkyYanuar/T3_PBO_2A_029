@@ -1,7 +1,7 @@
 package Model;
 
 public class Pesanan {
-    private int nextNumber = 1;
+    private static int nextNumber = 1;
     private int nomor;
     private DataMahasiswa pemesan;
     private MenuItem menu;

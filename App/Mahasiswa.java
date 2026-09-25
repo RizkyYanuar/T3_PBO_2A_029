@@ -27,10 +27,11 @@ public class Mahasiswa {
 
         System.out.println("Pemesan Pertama: " + p1.getNama());
         System.out.println("Pemesan Kedua: " + p2.getNama());
-        Pesanan p3 = new Pesanan(m2, listrik, 1);
+        Pesanan p3 = new Pesanan(m3, listrik, 1);
         System.out.println("Nomor pesanan pertama: " + p1.getNomor());
         System.out.println("Nomor pesanan kedua: " + p2.getNomor());
         System.out.println("Nomor pesanan ketiga: " + p3.getNomor());
+        nasi.tersedia = false;
 
     }
 }
