@@ -37,5 +37,8 @@ public class Pesanan {
     public int getNomor() {
         return this.nomor;
     }
+    public static int getJumlahPesananDibuat() {
+        return nextNumber - 1;
+    }
 }
 
